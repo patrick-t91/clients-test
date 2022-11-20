@@ -1,0 +1,133 @@
+.App .light-icon,
+.App .dark-icon {
+  cursor: pointer;
+  margin: 20px;
+}
+
+#mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  max-width: 60%;
+}
+
+#mainContent .client-name {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 2rem;
+}
+
+#mainContent .test-name {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+#mainContent .tester-name {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+#mainContent video {
+  max-width: 100%;
+}
+
+#mainContent .transcription-main {
+  text-align: left;
+}
+
+#mainContent .transcription-main p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#mainContent .transcription-content {
+  overflow: scroll;
+  max-height: 300px;
+  max-width: 600px;
+  margin-bottom: 40px;
+  padding-right: 50px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  font-family: GothamBook, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+
+#mainContent .tasks-main {
+  text-align: left;
+}
+
+#mainContent .tasks-main .tasks-title {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  font-weight: 400;
+}
+#mainContent .tasks-main .tasks-scenario {
+  max-height: 300px;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+}
+
+#mainContent .tasks-item {
+  display: block;
+  overflow: visible;
+  max-height: 300px;
+  max-width: 500px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 20px 20px 0;
+  border-style: solid none none;
+  border-width: 1px 1px 1px 0;
+  border-color: #fff #000 #000 #2e2e2e;
+  border-radius: 0;
+  font-family: GothamMedium, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}
+#mainContent .tasks-item.light-theme {
+  border-color: #3d9b51;
+}
+#mainContent .tasks-item .task-duration {
+  display: block;
+  overflow: visible;
+  max-height: 300px;
+  max-width: 500px;
+  margin-bottom: 0;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-family: GothamBook, Arial, sans-serif;
+  color: #f6905c;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+}

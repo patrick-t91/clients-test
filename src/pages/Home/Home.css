@@ -1,0 +1,31 @@
+#linksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 90px;
+}
+#linksContainer a {
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+#linksContainer a.dark-mode-link {
+  color: #ffffff;
+}
+#linksContainer a.dark-mode-link:hover {
+  background-color: #ffffff;
+  color: #292643;
+}
+#linksContainer a.light-mode-link {
+  color: #3d9b51;
+}
+#linksContainer a.light-mode-link:hover {
+  background-color: #3d9b51;
+  color: #ffffff;
+}
+.App nav .light-icon,
+.App nav .dark-icon {
+  cursor: pointer;
+}
