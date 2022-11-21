@@ -17,6 +17,8 @@
   margin-bottom: 10px;
   font-family: GothamMedium, Arial, sans-serif;
   font-size: 2rem;
+  line-height: 44px;
+  font-weight: 700;
 }
 
 #mainContent .test-name {
@@ -25,6 +27,8 @@
   font-family: GothamMedium, Arial, sans-serif;
   font-size: 1.8rem;
   text-align: left;
+  line-height: 44px;
+  font-weight: 700;
 }
 
 #mainContent .tester-name {
@@ -32,6 +36,8 @@
   margin-bottom: 30px;
   font-family: GothamMedium, Arial, sans-serif;
   font-size: 1.5rem;
+  line-height: 44px;
+  font-weight: 700;
 }
 
 #mainContent video {

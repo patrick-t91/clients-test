@@ -36,6 +36,10 @@ export const Clients = () => {
     selectedClient && setVideoSrc(selectedClient.linkVideo);
   }, [selectedClient]);
 
+  
+/*   useEffect(() => {
+    selectedClient.
+  }, [selectedClient]); */
   return (
     <ThemeApp isDarkTheme={isDarkTheme}>
       {isDarkTheme ? (
@@ -57,16 +61,13 @@ export const Clients = () => {
           </p>
           {videoSrc && (
             <video controls name="media">
-              <source
-                src={videoSrc}
-                type="video/mp4"
-              />
+              <source src={videoSrc} type="video/mp4" />
             </video>
           )}
           <div className="transcription-main">
             <p>Transcripción</p>
             <div className="transcription-content">
-              {selectedClient.transcripcion}
+              {selectedClient.transcripcion.replaceAll('<br>', '\n')}
             </div>
           </div>
           <div className="tasks-main">
